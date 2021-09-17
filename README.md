@@ -1,3 +1,8 @@
+# Our site for Finodays
+![image_2021-09-17_23-54-49](https://user-images.githubusercontent.com/24477376/133852625-bb7bd80f-d9b5-4abd-87f3-e8ca387897c8.png)
+
+
+
 # Machine learning for car price prediction
 
 ## Dataset
