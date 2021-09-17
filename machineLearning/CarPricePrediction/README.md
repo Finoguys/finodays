@@ -7,6 +7,9 @@ In the dataset there was not car photos; and we decided to find photo of each ca
 
 ## Image process
 We done python script image processing to transform image into car color, photo sharpness and resolution. Final code you can see in file "OneCarSetter".
+![photo_2021-09-17_23-51-57](https://user-images.githubusercontent.com/24477376/133852335-dc19c5d4-0c30-49d5-810b-2d9ec2240322.jpg)
+![photo_2021-09-17_23-52-03](https://user-images.githubusercontent.com/24477376/133852338-a4ec45ce-6a47-4565-9b2c-ae6c96cd2ce7.jpg)
+
 
 ### Color detection
 First, the original image is filtered to clear artifacts and interference caused by high iso, poor lighting, or poor camera quality. To do this, a median filter is applied to the original image. Then the most interesting areas are highlighted in the image. To do this, each pixel of the image is center-weighted, as well as depending on its S and V components, when translated into the HSV color space, a weight is assigned. Then the prevailing colors are highlighted in the resulting image. To do this, pixels are considered as a weighted cloud of points in the color space, clusters are allocated in the cloud. The parameters are selected so that the Euclidean distance between the centers of these clusters in the HSV color space is greater than or equal to 30. The cluster that has the largest number of points in the resulting palette is considered the main color of the car
