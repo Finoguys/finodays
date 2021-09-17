@@ -3,7 +3,7 @@
 ## Dataset
 Dataset for teaching our ML model we got from [Kaggle - car price prediction](https://www.kaggle.com/hellbuoy/car-price-prediction). This dataset have 305 rows of information about different car with such data: symboling(Its assigned insurance risk rating, A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe), car company, type of fuel, aspiration in a car, numbers of doors, body of car, type of drive wheel, location of car engine, wheel base of car, length of a car, width of a car, height of a car,
 weight of a car without occupants or baggage, type of engine, cylinder placed in a car, size of a car, fuel system of a car, boreratio of a car, stroke or volume inside the engine, compression ratio of car, horsepower, car peak rpm, mileage in city, mileage on highway, price of a car. You can see dataset in file "CarPrice" and information about parameters in the file "DataDictionary".
-In the dataset there was not car photos; and we decided to find photo of each car by our own. Also, we created script which can find color of a car from photo, sharpness and resolution. 3/4 of dataset we took for teaching ML and 1/4 for testing it. Final dataset you can see in file "carsWithAddInfo".
+In the dataset there was not car photos; and we decided to find photo of each car by our own. Also, we created script which can find color of a car from photo, sharpness and resolution. Photos you can see in folder photos. 3/4 of dataset we took for teaching ML and 1/4 for testing it. Final dataset you can see in file "carsWithAddInfo".
 
 ## Image process
 We done python script image processing to transform image into car color, photo sharpness and resolution. Final code you can see in file "OneCarSetter".
